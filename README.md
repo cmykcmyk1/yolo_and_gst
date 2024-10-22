@@ -9,15 +9,15 @@
 `yolo_and_gst` - связка этих компонентов.  
 На вход даёшь mp4-видео, на выходе получаешь его воспроизведение с подсвеченными обнаруженными объектами.  
 
-![screenshot](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/screenshot.jpg)
+![screenshot](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/screenshot.jpg)
 
 **В этом проекте не используется OpenCV**
 
 Для распознавания образов используется проект [ncnn](https://github.com/Tencent/ncnn) - это реализация алгоритма YOLOv3.
 
-Вы можете попробовать эту программу без сборки. Скачайте готовую версию по [ссылке](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
+Вы можете попробовать эту программу без сборки. Скачайте готовую версию по [ссылке](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
 Для её запуска, возможно, потребуется установить зависимости (см. `Перед сборкой`).  
-Также можете скачать [mp4-видео](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/example.mp4))  
+Также можете скачать [mp4-видео](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/example.mp4))  
 [Оригинал](https://www.youtube.com/watch?v=WeQ-aeJd-Kk)
 
 ## Перед сборкой
@@ -31,7 +31,7 @@
 
 Откройте в терминале директорию, где хотите расположить проект, и выполните следующие команды:
 
-> git clone [https://github.com/itsroar/yolo_and_gst]() --recurse-submodules  
+> git clone [https://github.com/cmykcmyk1/yolo_and_gst]() --recurse-submodules  
 > cd yolo_and_gst  
 > mkdir build  
 > cd build  
@@ -43,7 +43,7 @@
 ## После сборки
 
 В корне проекта создайте папку `res` и расположите в ней файлы-ресурсы используемые программой: шрифт для отрисовки текста, датасет для нейронной сети.  
-Эти файлы вы можете взять из готовой версии программы, которую можно скачать по [ссылке](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
+Эти файлы вы можете взять из готовой версии программы, которую можно скачать по [ссылке](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
 Возьмите из архива `arial.ttf`, `mobilenetv2_yolov3.bin` и `mobilenetv2_yolov3.param`.
 
 **Программа готова к запуску**
@@ -65,15 +65,15 @@
 Input: mp4 video  
 Output: playback video with object detection
 
-![screenshot](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/screenshot.jpg)
+![screenshot](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/screenshot.jpg)
 
 **This project does not use OpenCV**
 
 For object detection uses project [ncnn](https://github.com/Tencent/ncnn) project - this is an implementation of the YOLOv3 algorithm.
 
-You can try this program without building. Download the finished program from the [link](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
+You can try this program without building. Download the finished program from the [link](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
 To run it, you may need to install dependencies (see `Before building`).  
-Also you may download [mp4-video](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/example.mp4))  
+Also you may download [mp4-video](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/example.mp4))  
 [Original](https://www.youtube.com/watch?v=WeQ-aeJd-Kk)
 
 ## Before building
@@ -87,7 +87,7 @@ Dependencies need to be installed. Run the following commands:
 
 Open the directory where you want to locate this project. Run the following commands:
 
-> git clone [https://github.com/itsroar/yolo_and_gst]() --recurse-submodules  
+> git clone [https://github.com/cmykcmyk1/yolo_and_gst]() --recurse-submodules  
 > cd yolo_and_gst  
 > mkdir build  
 > cd build  
@@ -99,7 +99,7 @@ If the build is successful, the executable file `yolo_and_gst` will appear in th
 ## After building
 
 In the root of the project, create `res` folder and place the resource files used by the program in it: font for drawing text, dataset for neural network.  
-You can take these files from the finished version of the program, which can be downloaded from [link](https://github.com/itsroar/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
+You can take these files from the finished version of the program, which can be downloaded from [link](https://github.com/cmykcmyk1/yolo_and_gst/releases/download/yolov3/yolo_and_gst.tar.gz).  
 Take from the archive `arial.ttf`, `mobilenetv2_yolov3.bin` и `mobilenetv2_yolov3.param`.
 
 **The program is ready to run**
